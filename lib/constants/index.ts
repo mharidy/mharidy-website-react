@@ -1,1 +1,2 @@
-export * from "./ArticlesList"
+export * from "./ArticlesList";
+export * from "./ImagesList";
