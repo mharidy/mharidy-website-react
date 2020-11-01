@@ -3,8 +3,9 @@ export interface ArticleImage{
     imageAlt:string
 }
 export interface Article{
+    id:string,
     header:string,
     content:string,
-    images:Array<ArticleImage>
+    articleImages:Array<ArticleImage>
     isVisible:boolean
 }
