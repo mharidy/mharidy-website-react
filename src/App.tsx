@@ -1,10 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import logo from "./logo.svg";
+import "./App.css";
+import { HeaderNavigator } from "./components/HeaderNavigator";
 
 function App() {
   return (
     <div className="App">
+      <HeaderNavigator />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
